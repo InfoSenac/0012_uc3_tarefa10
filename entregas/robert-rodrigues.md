@@ -23,7 +23,7 @@
 ## 2. Análise de Saúde S.M.A.R.T. (CrystalDiskInfo)
 
 * **O CrystalDiskInfo exibiu os atributos S.M.A.R.T. do disco de 20 GB?** Não
-* **Justificativa Técnica:** [Explique por que o hipervisor/disco virtual VDI oculta ou emula os sensores físicos S.M.A.R.T. em comparação a um HD/SSD real na bancada]
+* **Justificativa Técnica:** o S.M.A.R.T. pertence ao hardware físico. O disco virtual representa o armazenamento, mas não necessariamente transmite os sensores e diagnósticos do dispositivo real.
 
 ---
 
@@ -31,10 +31,10 @@
 
 | Métrica Aferida | Resultado Obtido |
 | :--- | :--- |
-| **Taxa Mínima (Minimum)** | ___ MB/s |
-| **Taxa Máxima (Maximum)** | ___ MB/s |
-| **Taxa Média (Average)** | ___ MB/s |
-| **Tempo de Acesso (Access Time)** | ___ ms |
+| **Taxa Mínima (Minimum)** | 25.3 MB/s |
+| **Taxa Máxima (Maximum)** | 123.6 MB/s |
+| **Taxa Média (Average)** | 118.2 MB/s |
+| **Tempo de Acesso (Access Time)** | 0.6 ms |
 
 **Evidência 2 – Gráfico do Benchmark:**
-![Benchmark HD Tune](img/seu-nome-benchmark.png)
+![Benchmark HD Tune](img/robert-benchmark.png)
