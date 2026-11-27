@@ -16,14 +16,14 @@
 | **Letra Atribuída** | `D:\` | ´D:\` 
 
 **Evidência 1 – Gerenciador de Partições:**
-![Particionamento GPT NTFS](img/seu-nome-particao.png)
+![Particionamento GPT NTFS](img/giovani-particao.png)
 
 ---
 
 ## 2. Análise de Saúde S.M.A.R.T. (CrystalDiskInfo)
 
-* **O CrystalDiskInfo exibiu os atributos S.M.A.R.T. do disco de 20 GB?** (Sim / Não)
-* **Justificativa Técnica:** [Explique por que o hipervisor/disco virtual VDI oculta ou emula os sensores físicos S.M.A.R.T. em comparação a um HD/SSD real na bancada]
+* **O CrystalDiskInfo exibiu os atributos S.M.A.R.T. do disco de 20 GB?** (Sim / Não) | Sim
+* **Justificativa Técnica:** O hipervisor simula uma máquina física, com isso o VDI abstrai os softwares e não os controla diretamente.
 
 ---
 
@@ -37,4 +37,4 @@
 | **Tempo de Acesso (Access Time)** | ___ ms |
 
 **Evidência 2 – Gráfico do Benchmark:**
-![Benchmark HD Tune](img/seu-nome-benchmark.png)
+![Benchmark HD Tune](img/giovani-benchmark.png)
