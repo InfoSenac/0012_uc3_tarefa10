@@ -13,16 +13,16 @@
 | **Disco Alvo** | Disk 1 (20 GB VDI) |
 | **Tabela de Partição** | GPT |
 | **Sistema de Arquivos** | NTFS |
-| **Letra Atribuída** | `D:\` |
+| **Letra Atribuída** | `C:\` |
 
 **Evidência 1 – Gerenciador de Partições:**
-![Particionamento GPT NTFS](img/seu-nome-particao.png)
+![Particionamento GPT NTFS](img/robert-particao.png)
 
 ---
 
 ## 2. Análise de Saúde S.M.A.R.T. (CrystalDiskInfo)
 
-* **O CrystalDiskInfo exibiu os atributos S.M.A.R.T. do disco de 20 GB?** (Sim / Não)
+* **O CrystalDiskInfo exibiu os atributos S.M.A.R.T. do disco de 20 GB?** Não
 * **Justificativa Técnica:** [Explique por que o hipervisor/disco virtual VDI oculta ou emula os sensores físicos S.M.A.R.T. em comparação a um HD/SSD real na bancada]
 
 ---
