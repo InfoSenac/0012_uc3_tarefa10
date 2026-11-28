@@ -31,7 +31,7 @@
 
 | Métrica Aferida | Resultado Obtido |
 | :--- | :--- |
-| **Taxa Mínima (Minimum)** | ___ MB/s |
+| **Taxa Mínima (Minimum)** | 266.0 MB/s |
 | **Taxa Máxima (Maximum)** | ___ MB/s |
 | **Taxa Média (Average)** | ___ MB/s |
 | **Tempo de Acesso (Access Time)** | ___ ms |
