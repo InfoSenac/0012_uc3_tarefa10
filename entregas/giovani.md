@@ -10,10 +10,10 @@
 
 | Parâmetro Configurado | Valor Aplicado |
 | :--- | :--- |
-| **Disco Alvo** | Disk 1 (20 GB VDI) | Disk 0 (20 GB MBR)
-| **Tabela de Partição** | GPT | NTFS
-| **Sistema de Arquivos** | NTFS | NTFS
-| **Letra Atribuída** | `D:\` | ´D:\` 
+| **Disco Alvo** | Disk 1 (20 GB VDI) |
+| **Tabela de Partição** | GPT |
+| **Sistema de Arquivos** | NTFS |
+| **Letra Atribuída** | `D:\` |
 
 **Evidência 1 – Gerenciador de Partições:**
 ![Particionamento GPT NTFS](img/giovani-particao.png)
@@ -32,9 +32,9 @@
 | Métrica Aferida | Resultado Obtido |
 | :--- | :--- |
 | **Taxa Mínima (Minimum)** | 266.0 MB/s |
-| **Taxa Máxima (Maximum)** | ___ MB/s |
-| **Taxa Média (Average)** | ___ MB/s |
-| **Tempo de Acesso (Access Time)** | ___ ms |
+| **Taxa Máxima (Maximum)** | 311.6 MB/s |
+| **Taxa Média (Average)**  | 306.3 MB/s |
+| **Tempo de Acesso (Access Time)** | 0.2 ms |
 
 **Evidência 2 – Gráfico do Benchmark:**
 ![Benchmark HD Tune](img/giovani-benchmark.png)
